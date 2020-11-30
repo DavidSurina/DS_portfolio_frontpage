@@ -10,17 +10,17 @@
         <title>David Surina | Full-Stack web developer</title>
     </head>
     <body>
-        <header class="header">
+        <header class="header" id="home">
             <!--Need to decide if it will be a sticky or side opening nav-->
             <nav class="header__nav">
-                <div class="header__nav-el"><a href="#" class="header__nav-link">Home</a></div>
-                <div class="header__nav-el"><a href="#" class="header__nav-link">Projects</a></div>
-                <div class="header__nav-el"><a href="#" class="header__nav-link">Skills</a></div>
-                <div class="header__nav-el"><a href="#" class="header__nav-link">Contact</a></div>
+                <div class="header__nav-el"><a href="#home" class="header__nav-link">Home</a></div>
+                <div class="header__nav-el"><a href="#projects" class="header__nav-link">Projects</a></div>
+                <div class="header__nav-el"><a href="#skills" class="header__nav-link">Skills</a></div>
+                <div class="header__nav-el"><a href="#footer" class="header__nav-link">Contact</a></div>
             </nav>
         </header>
         <main>
-            <section class="section-aboutme">
+            <section class="section-aboutme" >
                 <div class="section-aboutme__content-wrapper">
                     <h1 class="section-aboutme__main-heading">David Surina</h1>
                     <div class="section-aboutme__paragraph-wrapper">
@@ -36,7 +36,7 @@
             </section>
             <!--Probably 2 sections portfolio and talk about skills-->
             <!--to the section portfolio i should add some unified square elements with preview/image and description with links to the github-->
-            <section class="section-portfolio">
+            <section class="section-portfolio" id="projects">
                 <h2 class="section-portfolio__heading">Portfolio - projects</h1>
                 <div class="section-portfolio__preview-wrapper">
                     <div class="section-portfolio__preview">
@@ -54,18 +54,22 @@
                 </div>
             </section>
             <!--In section skills i am not decided yet, how i should display skills either icons or plain spoken text-->
-            <section class="section-skills">
+            <section class="section-skills" id="skills">
                 <h3 class="section-skills__heading">My Skills</h3>
                 <div class="section-skills__container">
-
+                    <span class="section-skills__skill">Logo</span>
+                    <span class="section-skills__skill">Logo</span>
+                    <span class="section-skills__skill">Logo</span>
+                    <span class="section-skills__skill">Logo</span>
+                    <span class="section-skills__skill">Logo</span>
                 </div>
             </section>
         </main>
         <!--In footer should be contact/socials to my linked in maybe some small form to send me an email like in recent collab project-->
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <h3 class="footer__heading">Contact me!</h3>
             <div class="footer__content-wrapper">
-                
+
             </div>
         </footer>
     </body>
