@@ -96,6 +96,7 @@ body {
 }
 
 
+
 /*------- Section Skills ------*/
 
 .section-skills {
@@ -104,6 +105,13 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 45vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-skills__heading {
+    font-size: 5.5rem;
 }
 
 /*-------- Footer ------*/
@@ -113,4 +121,9 @@ body {
     min-height: 30vh;
     padding: 8rem 10% 0 10%;
     background-color: #346586;
+    color: #fff;
+}
+
+.footer__heading {
+    font-size: 4.5rem;
 }
